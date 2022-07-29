@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d753157328.js" crossorigin="anonymous"></script>
     <title>Ohmyfood</title>
 </head>
 <body>
+    <div class="loading_disparition">
+      <div class="loadcircle"> </div>  
+      <div class="loading"> </div>
+      <img class="logo" src="images/logo/ohmyfood@2x.svg" alt="">
+    </div>
     <header>
         <img src="images/logo/ohmyfood.png" alt="">
     </header>
@@ -20,7 +25,7 @@
             <div class="reservé">
                 <h1>Reservez le menu qui vous convient</h1>
                 <p>Découvrez des restaurants d'exception, selectionnés par nos soins</p>
-                <div class="btn">
+                <div id="btn">
                     <a> Explorez nos restaurant</a> 
                 </div>
             </div>    
@@ -28,13 +33,85 @@
         <section class="fontionnement">
             <h2>Fontionnement</h2>
             <ol>
-                <li><i class="fa-solid fa-mobile-screen"></i> Choisissez</li>
-                <li><i class="fa-solid fa-list"></i> Composez votre menu</menu></li>
-                <li><i class="fa-solid fa-store"></i> Dégustez au restaurant</li>
+                <li><span>1</span><i class="fa-solid fa-mobile-screen"></i> Choisissez un restaurant</li>
+                <li><span>2</span><i class="fa-solid fa-list"></i> Composez votre menu</menu></li>
+                <li><span>3</span><i class="fa-solid fa-store"></i> Dégustez au restaurant</li>
             </ol>
 
         </section>
+        <section class="restaurant">
+            <div id="">
+              <h2>Restaurant</h2>
+            </div>
+            <div id="nouveau-restaurants">
+                <article>
+                    <a class="nouveau" href="restaurant1.html"> <img src="images/restaurants/la-palette-du-gout.jpg" alt=""> <span>Nouveau</span></a>
+                    <div class="soustitre">
+                        <a href="restaurant1.html">
+                            <h3>La palette du goût</h3>
+                            <p>Ménilmontant</p>
+                        </a>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                    </div>    
+                  </article>
+                  <article>
+                    <a class="nouveau" href="restaurant2.html"> <img src="images/restaurants/la note enchantée.jpg" alt=""> <span>Nouveau</span></a>
+                    <div class="soustitre">
+                        <a href="#">
+                            <h3>La note enchantée</h3>
+                            <p>Charonne</p>
+                        </a>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </span>
+                    </div>    
+                  </article>
+            </div>
+            <div id="restaurants">
+              <article>
+                <a href="restaurant3.html"> <img src="images/restaurants/a-la-française.jpg" alt=""></a>
+                <div class="soustitre">
+                    <a href="#">
+                        <h3>À la française</h3>
+                        <p>Cité rouge</p>
+                    </a>
+                    <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-regular fa-heart"></i>
+                      </span>
+                </div>    
+              </article>
+              <article>
+                <a href="restaurant4.html"> <img src="images/restaurants/le-delice-des-sens.jpg" alt=""></a>
+                <div class="soustitre">
+                    <a href="#">
+                        <h3>Le délice des sens</h3>
+                        <p>Folies-Méricourt</p>
+                    </a>
+                    <span>
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-regular fa-heart"></i>
+                      </span>  
+                </div>    
+              </article>
+            </div>
+            <div id="afficher_plus">
+            </div>
     </main>
-    
+    <footer>
+        <div id="A_propos">
+          <h1>ohmyfood</h1>
+          <ul>
+            <li><i class="fa-solid fa-utensils"></i> Proposer un restaurant</li>
+            <li><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</li>
+            <li>Mention légales</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </footer>
 </body>
 </html>
