@@ -226,6 +226,9 @@ header img{
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
 }
 
+btn{
+	color: #ffffff;
+}
 
 .fontionnement{
     display: flex;
