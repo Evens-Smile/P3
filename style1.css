@@ -317,7 +317,7 @@ header img{
     animation: zoom 0.35s ease forwards;
 }
 
-#btn a {
+#btn a{
     color: #ffff;
 }
 
@@ -400,8 +400,6 @@ footer a{
     color: #ffffff;
 }
 
-a {
-    
-    
+a {  
     text-decoration: none; 
 }
