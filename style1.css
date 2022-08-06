@@ -317,6 +317,10 @@ header img{
     animation: zoom 0.35s ease forwards;
 }
 
+#btn a {
+    color: white;
+}
+
 @keyframes zoom {
     70%{
         transform: scale(1.01); 
